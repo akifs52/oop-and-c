@@ -1,0 +1,47 @@
+Here is a possible implementation of the class:
+
+[cpp]
+#include <iostream>
+#include <cmath>
+
+class RegularPolygon {
+private:
+  const int n; // number of sides
+  const double s; // length of one side
+  double area; // area of the polygon
+  double angle; // one interior angle in degrees
+
+public:
+  // constructor that takes number of sides and length of one side as parameters
+  RegularPolygon(int n, double s) : n(n), s(s) {
+    // calculate and store the area and angle using formulas
+    area = (n * s * s) / (4 * tan(M_PI / n));
+    angle = (n - 2) * 180.0 / n;
+    // print some messages for testing
+    std::cout << "A regular polygon with " << n << " sides and " << s << " length is created.\n";
+    std::cout << "Its area is " << area << " and its angle is " << angle << ".\n";
+  }
+
+  // member function that returns the area of the polygon
+  double getArea() {
+    return area;
+  }
+
+  // member function that returns one interior angle in degrees
+  double getAngle() {
+    return angle;
+  }
+
+  // member function that increments the number of sides by one
+  void incrementSides() {
+    // create a new polygon object with one more side and same side length
+    RegularPolygon newPolygon(n + 1, s);
+    // copy its data members to this object
+    area = newPolygon.area;
+    angle = newPolygon.angle;
+    // print some messages for testing
+    std::cout << "The number of sides is incremented by one.\n";
+    std::cout << "The new area is " << area << " and the new angle is " << angle << ".\n";
+  }
+};
+I hope this helps you understand how to design a class for a regular polygon in C++. If you have any questions or feedback, please let me know. 😊

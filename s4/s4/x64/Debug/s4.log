@@ -1,0 +1,18 @@
+﻿  s4.cpp
+C:\Users\akifs\OneDrive\Masaüstü\ako\s4\s4\s4.cpp(12,25): error C2275: 'std::string': expected an expression instead of a type
+C:\Users\akifs\OneDrive\Masaüstü\ako\s4\s4\s4.cpp(12,32): error C2146: syntax error: missing ')' before identifier 'npos'
+C:\Users\akifs\OneDrive\Masaüstü\ako\s4\s4\s4.cpp(12,36): error C2059: syntax error: ')'
+C:\Users\akifs\OneDrive\Masaüstü\ako\s4\s4\s4.cpp(12,32): error C2065: 'npos': undeclared identifier
+C:\Users\akifs\OneDrive\Masaüstü\ako\s4\s4\s4.cpp(13,13): error C2275: 'std::string': expected an expression instead of a type
+C:\Users\akifs\OneDrive\Masaüstü\ako\s4\s4\s4.cpp(13,20): error C2146: syntax error: missing ')' before identifier 'cityName'
+C:\Users\akifs\OneDrive\Masaüstü\ako\s4\s4\s4.cpp(17,17): error C2065: 'cityName': undeclared identifier
+C:\Users\akifs\OneDrive\Masaüstü\ako\s4\s4\s4.cpp(18,45): error C2065: 'cityName': undeclared identifier
+C:\Users\akifs\OneDrive\Masaüstü\ako\s4\s4\s4.cpp(25,15): error C2143: syntax error: missing ';' before '<<'
+C:\Users\akifs\OneDrive\Masaüstü\ako\s4\s4\s4.cpp(25,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\akifs\OneDrive\Masaüstü\ako\s4\s4\s4.cpp(25,10): error C2371: 'std::cout': redefinition; different basic types
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\iostream(40,75): message : see declaration of 'std::cout'
+C:\Users\akifs\OneDrive\Masaüstü\ako\s4\s4\s4.cpp(25,15): error C2059: syntax error: '<<'
+C:\Users\akifs\OneDrive\Masaüstü\ako\s4\s4\s4.cpp(26,1): error C2059: syntax error: '}'
+C:\Users\akifs\OneDrive\Masaüstü\ako\s4\s4\s4.cpp(26,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\akifs\OneDrive\Masaüstü\ako\s4\s4\s4.cpp(28,12): error C2143: syntax error: missing ';' before '{'
+C:\Users\akifs\OneDrive\Masaüstü\ako\s4\s4\s4.cpp(28,12): error C2447: '{': missing function header (old-style formal list?)

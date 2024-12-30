@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1676401203 source:c:\users\akifs\onedrive\masaüstü\ako\pallindrom\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

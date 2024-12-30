@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1678826150 source:c:\users\akifs\onedrive\masaüstü\ako\file iþlemler\sinüs kosinüs islemleri\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

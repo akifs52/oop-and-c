@@ -1,0 +1,3 @@
+﻿  virtual method.cpp
+C:\Users\akifs\OneDrive\Masaüstü\ako\virtual method\virtual method\virtual method.cpp(44,11): warning C4566: character represented by universal-character-name '\u0131' cannot be represented in the current code page (1252)
+  virtual method.vcxproj -> C:\Users\akifs\OneDrive\Masaüstü\ako\virtual method\x64\Debug\virtual method.exe

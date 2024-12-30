@@ -1,0 +1,88 @@
+
+
+[cpp]
+#include <iostream>
+#include <string>
+using namespace std;
+
+// Pet class
+class Pet {
+    protected:
+        string food; // kind of food
+    public:
+        // constructor
+        Pet(string f) : food(f) {}
+        // virtual destructor
+        virtual ~Pet() {}
+        // feed function
+        virtual void feed() const {
+            cout << "Eats " << food << endl;
+        }
+        // speak function
+        virtual void speak() const = 0; // pure virtual function
+};
+
+// Cat class inherits from Pet class
+class Cat : public Pet {
+    private:
+        string color; // color of the cat
+    public:
+        // constructor
+        Cat(string f, string c) : Pet(f), color(c) { //Private ların içindekileri yapıcı metod gibi color(c) gibi alabiliyoruz.
+            cout << "Got a " << color << " cat" << endl;
+        }
+        // speak function
+        void speak() const override {
+            cout << "Meow!" << endl;
+        }
+};
+
+// Monkey class inherits from Pet class
+class Monkey : public Pet {
+    private:
+        bool tail; // whether the monkey has a tail or not
+    public:
+        // constructor
+        Monkey(string f, bool t) : Pet(f), tail(t) {
+            if (tail) {
+                cout << "Got a monkey with a tail" << endl;
+            }
+            else {
+                cout << "Got a monkey with no tail" << endl;
+            }
+        }
+        // speak function
+        void speak() const override {
+            cout << "*Scratches pit*" << endl;
+        }
+};
+
+// Lizard class inherits from Pet class
+class Lizard : public Pet {
+    private:
+        int tongue; // length of the tongue in cm
+    public:
+        // constructor
+        Lizard(string f, int t) : Pet(f), tongue(t) {
+            cout << "Got a lizard with a " << tongue << "cm tongue" << endl;
+        }
+        // speak function
+        void speak() const override {
+            cout << "Grrrrrrr~" << endl;
+        }
+};
+
+// Turtle class inherits from Pet class
+class Turtle : public Pet {
+    private:
+        double weight; // weight of the turtle in pounds
+    public:
+        // constructor
+        Turtle(string f, double w) : Pet(f), weight(w) {
+            cout << "Got a " << weight << "-pound turtle" << endl;
+        }
+        // speak function
+        void speak() const override {
+            cout << "*Turtle noise*" << endl;
+        }
+};

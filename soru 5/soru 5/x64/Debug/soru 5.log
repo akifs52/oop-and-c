@@ -1,0 +1,3 @@
+﻿  soru 5.cpp
+C:\Users\akifs\OneDrive\Masaüstü\ako\soru 5\soru 5\soru 5.cpp(42,2): error C2512: 'regularPolygon': no appropriate default constructor available
+C:\Users\akifs\OneDrive\Masaüstü\ako\soru 5\soru 5\soru 5.cpp(6,7): message : see declaration of 'regularPolygon'
